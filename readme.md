@@ -88,13 +88,13 @@ The content published to docs.microsoft.com is partitioned into several public G
 
 | Main Landing Page | Solution/Service Landing Page | GitHub Org/Repository | Discussion Forum(s) |
 |:---------------------------:|:-------------------------------------------:|:-------------------------:|:----------------------------:|
-| [Enterprise Mobility][EM-Land-Page] |     | [Microsoft/EMDocs][EM-Land-Repo] | [MSDN][Forum-MSDN-EM] |
+| [Enterprise Mobility][EM-Land-Page] |     | [Microsoft/EMDocs][EM-Land-Repo] | [TechNet][Forum-MSDN-EM] |
 |     | [Azure Active Directory][EM-AzureAD-Land] | [Azure/Azure-Content][EM-AzureAD-Repo] | [MSDN][Forum-MSDN-AzureAD], [Stack Overflow][Forum-SO-AzureAD] |
 |     | [Multi-Factor Authentication][EM-MFA-Land] | [Azure/Azure-Content][EM-MFA-Repo] | [MSDN][Forum-MSDN-MFA], [Stack Overflow][Forum-SO-MFA] |
 |     | [Microsoft Identity Manager][EM-MIM-Land] | [Microsoft/MIMDocs][EM-MIM-Repo] | [TechNet][Forum-MSDN-MIM], [Stack Overflow][Forum-SO-MIM] |
 |     | [Microsoft Intune][EM-Intune-Land] | [Microsoft/IntuneDocs][EM-Intune-Repo] | [TechNet][Forum-MSDN-Intune], [Stack Overflow][Forum-SO-Intune] |
 |     | [Azure Rights Management][EM-AzureRMS-Land] | [Microsoft/Azure-RMSDocs][EM-AzureRMS-Repo] | [Yammer][Forum-Yammer-AzureRMS], [TechNet][Forum-MSDN-AzureRMS], [Stack Overflow][Forum-SO-AzureRMS] |
-|     | [Microsoft Advanced Threat Analytics][EM-ATA-Land] | [Microsoft/ATADocs][EM-ATA-Repo] | [MSDN][Forum-MSDN-ATA] |
+|     | [Microsoft Advanced Threat Analytics][EM-ATA-Land] | [Microsoft/ATADocs][EM-ATA-Repo] | [TechNet][Forum-MSDN-ATA] |
 |     | [Azure RemoteApp][EM-RemoteApp-Land] | [Azure/Azure-Content][EM-RemoteApp-Repo] | [TechNet][Forum-MSDN-RemoteApp], [Stack Overflow][Forum-SO-RemoteApp] |
 
 The content in each repository is loosely aligned with the organization of the articles on the corresponding [https://docs.microsoft.com/](https://docs.microsoft.com/) landing pages. A series of subdirectories are used for separation of usage scenarios/stages (ie: Understand & Explore, Deploy & Use, etc), along with media content (ie: image files) and include files (Markdown files that are reused across multiple main articles).
