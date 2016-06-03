@@ -66,7 +66,7 @@ After you've completed the prior steps and those changes are live, you can delet
 
 ## Step 6: Remove any links from other articles, such as MSDN or TechNet (required)
 
-Review the content QA tool for broken links to the retired or renamed topic and remove/fix the links in all topics affected.
+Review the [content QA tool](http://csicontentqa) for broken links to the retired or renamed topic and remove/fix the links in all topics affected.
 
 ## Step 7: Remove cached pages from search engines (only if absolutely necessary)
 
