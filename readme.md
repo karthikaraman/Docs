@@ -93,7 +93,7 @@ The content published to docs.microsoft.com is partitioned into several public G
 |     | [Multi-Factor Authentication][EM-MFA-Land] | [Azure/Azure-Content][EM-MFA-Repo] | [MSDN][Forum-MSDN-MFA], [Stack Overflow][Forum-SO-MFA] |
 |     | [Microsoft Identity Manager][EM-MIM-Land] | [Microsoft/MIMDocs][EM-MIM-Repo] | [MSDN][Forum-MSDN-MIM], [Stack Overflow][Forum-SO-MIM] |
 |     | [Microsoft Intune][EM-Intune-Land] | [Microsoft/IntuneDocs][EM-Intune-Repo] | [MSDN][Forum-MSDN-Intune], [Stack Overflow][Forum-SO-Intune] |
-|     | [Azure Rights Management][EM-AzureRMS-Land] | [Microsoft/Azure-RMSDocs][EM-AzureRMS-Repo] | [TechNet][Forum-MSDN-AzureRMS], [Stack Overflow][Forum-SO-AzureRMS] |
+|     | [Azure Rights Management][EM-AzureRMS-Land] | [Microsoft/Azure-RMSDocs][EM-AzureRMS-Repo] | [Yammer][Forum-Yammer-AzureRMS] [TechNet][Forum-MSDN-AzureRMS], [Stack Overflow][Forum-SO-AzureRMS] |
 |     | [Microsoft Advanced Threat Analytics][EM-ATA-Land] | [Microsoft/ATADocs][EM-ATA-Repo] | [MSDN][Forum-MSDN-ATA] |
 |     | [Azure RemoteApp][EM-RemoteApp-Land] | [Azure/Azure-Content][EM-RemoteApp-Repo] | [MSDN][Forum-MSDN-RemoteApp], [Stack Overflow][Forum-SO-RemoteApp] |
 
@@ -233,4 +233,6 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-SO-MFA]: http://stackoverflow.com/search?q=%5Bazure%5D+multi-factor
 [Forum-SO-MIM]: http://stackoverflow.com/search?q=Microsoft+Identity+Manager
 [Forum-SO-RemoteApp]: http://stackoverflow.com/questions/tagged/remoteapp
+
+[Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
 
