@@ -34,7 +34,7 @@ You can contribute to docs.microsoft.com content and community in a few differen
 * **Submit feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address) :
   * General comments can be provided by using the "Comments" feature at the bottom of the article page
   * Context-specific comments can be embedded in the related section/paragraph, by hovering the text and clicking the "sidenote" caption icon
-* **Participate in community discussion**, such as a [Microsoft forum][Forum-MSDN-Main] or [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
+* **Participate in community discussion**, such as a Microsoft [TechNet][Forum-TechNet-Main] or [MSDN][Forum-MSDN-Main] form, or [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
 * **Submit a pull request**, which contains your suggested changes to the actual content, targeting content in one of the docs.microsoft.com GitHub repositories. See the [Repository organization](#repository-organization) section below for the list of repositories.
 
 The remainder of this article is devoted to the last option, providing additional detail on how you can use the GitHub Pull Request feature to make contributions. 
@@ -222,7 +222,7 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-MSDN-AzureRMS]: https://social.technet.microsoft.com/Forums/en-US/home?forum=rmsapps%2Crmscloud&filter=alltypes&sort=lastpostdesc
 [Forum-MSDN-EM]: https://social.technet.microsoft.com/Forums/en-US/home?sort=relevancedesc&brandIgnore=True&searchTerm=Enterprise+Mobility
 [Forum-MSDN-Intune]: https://social.technet.microsoft.com/Forums/en-us/home?category=microsoftintune
-[Forum-MSDN-Main]: https://social.technet.microsoft.com/Forums/home
+[Forum-MSDN-Main]: https://social.msdn.microsoft.com/Forums/home
 [Forum-MSDN-MFA]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowsazureactiveauthentication
 [Forum-MSDN-MIM]: https://social.technet.microsoft.com/Forums/en-US/home?category=identitymanagement
 [Forum-MSDN-RemoteApp]: https://social.technet.microsoft.com/Forums/en-US/home?filter=alltypes&brandIgnore=True&sort=relevancedesc&searchTerm=Azure+Remote+or+RemoteApp
@@ -233,6 +233,6 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-SO-MFA]: http://stackoverflow.com/search?q=%5Bazure%5D+multi-factor
 [Forum-SO-MIM]: http://stackoverflow.com/search?q=Microsoft+Identity+Manager
 [Forum-SO-RemoteApp]: http://stackoverflow.com/questions/tagged/remoteapp
-
+[Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
 [Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
 
