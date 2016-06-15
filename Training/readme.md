@@ -43,7 +43,7 @@ The current docs.microsoft.com repos are:
 
 * Advanced Threat Analytics: [public](https://github.com/Microsoft/ATAdocs) | (private)[https://github.com/Microsoft/ATAdocs-pr)
 * Azure Rights Management: [public](https://github.com/Microsoft/Azure-RMSDocs) | (private)[https://github.com/Microsoft/Azure-RMSDocs-pr)
-* Docs (this repo): [public](https://github.com/Microsoft/Docs](public)
-* Enterprise Mobility: [public](https://github.com/Microsoft/EMDocs) | (private)[https://github.com/Microsoft/EMDocs-pr)
-* Intune: [public](https://github.com/Microsoft/IntuneDocs) | (private)[https://github.com/Microsoft/IntuneDocs-pr)
-* Microsoft Identity Manager: [public](https://github.com/Microsoft/MIMDocs) | (private)[https://github.com/Microsoft/MIMDocs-pr)
+* Docs (this repo): [public](https://github.com/Microsoft/Docs]
+* Enterprise Mobility: [public](https://github.com/Microsoft/EMDocs) | [private](https://github.com/Microsoft/EMDocs-pr)
+* Intune: [public](https://github.com/Microsoft/IntuneDocs) | [private](https://github.com/Microsoft/IntuneDocs-pr)
+* Microsoft Identity Manager: [public](https://github.com/Microsoft/MIMDocs) | [private](https://github.com/Microsoft/MIMDocs-pr)
