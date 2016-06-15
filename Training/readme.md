@@ -1,6 +1,6 @@
 # Docs Training resources
 
-This directory contains links and resources for training those who wish to contribute to [docs.microsoft.com](docs.microsoft.com), as well as best practices for training partners.
+This directory contains best practices, links, and resources for training those who wish to contribute to [docs.microsoft.com](docs.microsoft.com).
 
 ## Beforehand
 
@@ -15,9 +15,7 @@ This directory contains links and resources for training those who wish to contr
 
 * Use the first third to explain Git and Github, using the [training PowerPoint Presentation](git-github-workflow-training.pptx).
 
-* Use the second third to demonstrate our workflow using Gitbash, a markdown editor, and Github. While doing so, insist that the trainees follow along using their own installation of the tools.  
-* 
-* Have them:
+* Use the second third to demonstrate our workflow using Gitbash, a markdown editor, and Github. While doing so, insist that the trainees follow along using their own installation of the tools. Have them:
    * Fork the repo
    * Clone their fork locally using `git clone http://github.com/GITHUBUSERNAME/REPO`
    * Create aliases to upstream and origin, and embed their credentials in the commandline using `git remote`
@@ -42,7 +40,7 @@ This directory contains links and resources for training those who wish to contr
 
 The current docs.microsoft.com repos are:
 
-* Advanced Threat Analytics: [public](https://github.com/Microsoft/ATAdocs) | (private)[https://github.com/Microsoft/ATAdocs-pr)
+* Advanced Threat Analytics: [public](https://github.com/Microsoft/ATAdocs) | [private](https://github.com/Microsoft/ATAdocs-pr)
 * Azure Rights Management: [public](https://github.com/Microsoft/Azure-RMSDocs) | [private](https://github.com/Microsoft/Azure-RMSDocs-pr)
 * Docs (this repo): [public](https://github.com/Microsoft/Docs)
 * Enterprise Mobility: [public](https://github.com/Microsoft/EMDocs) | [private](https://github.com/Microsoft/EMDocs-pr)
