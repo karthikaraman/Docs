@@ -1,8 +1,6 @@
-# Docs Partner Training resources
+# Docs Training resources
 
-This subdirectory contains links and resources for training those who wish to contribute to [docs.microsoft.com](docs.microsoft.com). 
-
-Here are some best practices for training partners:
+This directory contains links and resources for training those who wish to contribute to [docs.microsoft.com](docs.microsoft.com), as well as best practices for training partners.
 
 ## Beforehand
 
@@ -15,18 +13,21 @@ Here are some best practices for training partners:
 
 ## Training session
 
-* Use the firth third to explain Git and Github, using the [training PowerPoint Presentation](git-github-workflow-training.pptx).
+* Use the first third to explain Git and Github, using the [training PowerPoint Presentation](git-github-workflow-training.pptx).
 
-* Use the second third to demonstrate our workflow using Gitbash, a markdown editor, and Github. While doing so, insist that the trainees follow along using their own tools.  Have them:
-   * Fork the repo.
-   * Clone their fork locally.
-   * Create aliases to upstream and origin, and embed their credentials in the commandline, using the git remote command
-   * Sync their repo to upstream master
-   * Create a branch and check it out
+* Use the second third to demonstrate our workflow using Gitbash, a markdown editor, and Github. While doing so, insist that the trainees follow along using their own installation of the tools.  
+* 
+* Have them:
+   * Fork the repo
+   * Clone their fork locally using `git clone http://github.com/GITHUBUSERNAME/REPO`
+   * Create aliases to upstream and origin, and embed their credentials in the commandline using `git remote`
+   * Sync their repo using `git pull upstream master`
+   * Create a branch using `git branch BRANCHNAME` 
+   * Change to their newly created branch using `git checkout BRANCHNAME`
    * Edit and/or add one or more files
-   * Add the file
-   * Commit the files
-   * Push the changes to Github
+   * Stage the files using `git add`
+   * Commit the files using `git commit -m "COMMIT MESSAGE"`
+   * Push the changes to Github using `git push origin BRANCHNAME`
    * Go to Github and create a pull request
    * View their changes in the staging site
 
@@ -42,8 +43,8 @@ Here are some best practices for training partners:
 The current docs.microsoft.com repos are:
 
 * Advanced Threat Analytics: [public](https://github.com/Microsoft/ATAdocs) | (private)[https://github.com/Microsoft/ATAdocs-pr)
-* Azure Rights Management: [public](https://github.com/Microsoft/Azure-RMSDocs) | (private)[https://github.com/Microsoft/Azure-RMSDocs-pr)
-* Docs (this repo): [public](https://github.com/Microsoft/Docs]
+* Azure Rights Management: [public](https://github.com/Microsoft/Azure-RMSDocs) | [private](https://github.com/Microsoft/Azure-RMSDocs-pr)
+* Docs (this repo): [public](https://github.com/Microsoft/Docs)
 * Enterprise Mobility: [public](https://github.com/Microsoft/EMDocs) | [private](https://github.com/Microsoft/EMDocs-pr)
 * Intune: [public](https://github.com/Microsoft/IntuneDocs) | [private](https://github.com/Microsoft/IntuneDocs-pr)
 * Microsoft Identity Manager: [public](https://github.com/Microsoft/MIMDocs) | [private](https://github.com/Microsoft/MIMDocs-pr)
