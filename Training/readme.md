@@ -4,7 +4,9 @@ This subdirectory contains links and resources for training those who wish to co
 
 Here are some best practices for training partners:
 
-## Beforehand
+## Training 
+
+### Beforehand
 
 * A week or so in advance, set up a block of time (typically an hour or 90 minutes) to provide training for the contributors.
 
@@ -13,7 +15,7 @@ Here are some best practices for training partners:
    * The [Try Git](https://www.codeschool.com/courses/try-git) course from [Code School](https://www.codeschool.com]).
    * [GitHub's 15-minute interactive primer](https://try.github.io/), [cheat sheets](https://training.github.com/kit/), and [links to formalized training](https://services.github.com/).
 
-## Training session
+### Training session
 
 * Use the firth third to explain Git and Github, using the [training PowerPoint Presentation](git-github-workflow-training.pptx).
 
@@ -32,12 +34,13 @@ Here are some best practices for training partners:
 
 * Leave the final third of the training session for questions (of which there will be many).
 
-## Afterwards
+### Afterwards
 
 * Follow up after the training to let the partners know that they can reply on you as a git/github/workflow SME.
 
 * Actively seek out opportunities for the partners to make small changes and contributions to the documentation.
 
+## Docs Repos
 
 The current docs.microsoft.com repos are:
 
