@@ -34,7 +34,7 @@ When creating a markdown file you should copy this template to a new file, fill 
 
 ## Metadata 
 
-The full metadata block is above (in the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md), divided into required fields and optional fields. Some key notes:
+The full metadata block is above (in the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md)), divided into required fields and optional fields. Some key notes:
 
 - You **must** have a space between the colon (:) and the value for a metadata element.
 - If an optional metadata element does not have a value, comment out the element with a # (do not leave it blank or use "na"); if you are adding a value to an element that was commnted out, be sure to remove the #.
@@ -169,7 +169,7 @@ If a URL appears in a markdown file, it will be transformed into a clickable lin
 
 ### Generic codeblock
 
-Identent code four spaces for generic codeblock coding.
+Indent code four spaces for generic codeblock coding.
 
     function fancyAlert(arg) {
       if(arg) {
@@ -273,24 +273,26 @@ Use backticks (&#96;) for `in-line code`.
 
 ## docs.ms extentions
 
+Doc.ms provides a few extentions to Github Flavored Markdown. 
+
 ###  Includes
 
 You can embed the markdown of one file into another using an include.
 
 [!INCLUDE[sample include file](./includes/sampleinclude.md)]
 
-### Button
+### Buttons
 
 > [!div class="button"]
 [button links](/rights-management)
 
-### Selector
+### Selectors
 
 > [!div class="op_single_selector"]
 - [foo](/rights-management/template.md)
 - [bar](/rights-management/scratch.md)
 
-### Step-By-Step
+### Step-By-Steps
 
 >[!div class="step-by-step"]
 [Pre](https://www.example.com)
