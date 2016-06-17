@@ -27,15 +27,14 @@ ms.assetid: [GET ONE FROM guidgenerator.com]
 
 # Metadata and Markdown Template
 
-This docs.ms template contains examples of markdown syntax, as well as guidance on setting the metadata. It is available in the root directory of each EM Pilot repository (e.g. ~/Azure-RMSDocs-pr
-/template.md) and is meant to be read as a markdown file, although you can refer to [the published version](https://stage.docs.microsoft.com/en-us/rights-management/template) to see how the markdown examples rendeer.
+This docs.ms template contains examples of markdown syntax, as well as guidance on setting the metadata. To get the most of it you must view both the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md) and the [rendered view](https://github.com/Microsoft/Docs/blob/master/template.md) (or instance, the raw markdown shows the metadata block, while the rendered view does not).
 
-When creating a markdown file you shluld copy the template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content. 
+When creating a markdown file you should copy this template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content. 
 
 
 ## Metadata 
 
-The full metadata block is above, divided into required fields and optional fields; see the [OPS metadata cheatsheet](https://ppe.msdn.microsoft.com/en-us/ce-csi-docs/ops/ops-onboarding/managing-content/content-meta-data) for more details. Some key notes:
+The full metadata block is above (in the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md), divided into required fields and optional fields. Some key notes:
 
 - You **must** have a space between the colon (:) and the value for a metadata element.
 - If an optional metadata element does not have a value, comment out the element with a # (do not leave it blank or use "na"); if you are adding a value to an element that was commnted out, be sure to remove the #.
@@ -51,6 +50,13 @@ All basic and Github-flavored markdown is supported. For more information on the
 
 - [Baseline markdown syntax](https://daringfireball.net/projects/markdown/syntax)
 - [Github-flavored markdown (GFM) documentation](https://guides.github.com/features/mastering-markdown)
+
+## Special Characters
+
+Github Flavored Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
+
+- Put a backslash before the special charatcter to "escape" it (e.g., \\\* for a \*)
+- Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (e.g. \&\#42\; for a &#42;).
 
 ## Headings
 
@@ -73,21 +79,24 @@ Second-level headings will generate the on-page TOC that appears in the "In this
 
 ~~Strikethrough~~
 
-
-
 ## Links
 
-To link to a markdown file in the same repo, use [relative links](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2). 
+### Internal Links
 
-- Example: [What is Azure Rights Management](./understand-explore/what-is-azure-rights-management.md)
-
-To link to a header in the same markdown file, view the source of the published article, find the id of the head (e.g. `id="blockquote"`, and link using # + id (e.g. `#blockquote`).
+To link to a header in the same markdown file, view the source of the published article, find the id of the head (e.g. `id="blockquote"`), and link using # + id (e.g. `#blockquote`).
 
 - Example: [Blockquotes](#blockquote)
 
+To link to a markdown file in the same repo, use [relative links](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2), including the ".md" at the end of the filename.
+
+- Example: [Readme file](readme.md)
+- Example: [Tools and setup for contributors](./ContributorGuide/tools-and-setup.md)
+
 To link to a header in a markdown file in the same repo, use relative linking + hashtag linking.
 
-- Example: [technical overiew of the sign-up process](./understand-explore/rms-for-individuals-user-signup.md#technical-overview-of-the-sign-up-process)
+- Example: [Permissions in Guthub](./ContributorGuide/tools-and-setup.md#permissions-in-github)
+
+### External Links
 
 To link to an external file, use the full URL as the link.
 
@@ -158,7 +167,9 @@ If a URL appears in a markdown file, it will be transformed into a clickable lin
 
 ## Code
 
-### Codeblock
+### Generic codeblock
+
+Identent code four spaces for generic codeblock coding.
 
     function fancyAlert(arg) {
       if(arg) {
@@ -166,9 +177,49 @@ If a URL appears in a markdown file, it will be transformed into a clickable lin
       }
     }
 
+
+### Codeblocks with language identifier
+
+Use three backticks (&#96;&#96;&#96;) + a language ID to apply language-specific color coding to a code block.  Here is the entire list of [GitHub Flavored Markdown (GFM) language IDs](https://github.com/jmm/gfm-lang-ids/wiki/GitHub-Flavored-Markdown-(GFM)-language-IDs).
+
+##### C&#9839;
+
+```c#
+using System;
+namespace HelloWorld
+{
+    class Hello 
+    {
+        static void Main() 
+        {
+            Console.WriteLine("Hello World!");
+
+            // Keep the console window open in debug mode.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
+    }
+}
+```
+#### Python
+
+```python
+friends = ['john', 'pat', 'gary', 'michael']
+for i, name in enumerate(friends):
+    print "iteration {iteration} is {name}".format(iteration=i, name=name)
+```
+#### PowerShell
+
+```powershell
+Clear-Host
+$Directory = "C:\Windows\"
+$Files = Get-Childitem $Directory -recurse -Include *.log `
+-ErrorAction SilentlyContinue
+```
+
 ### In-line code
 
-This is an example of `in-line code`.
+Use backticks (&#96;) for `in-line code`.
 
 ## Blockquotes
 
@@ -182,7 +233,7 @@ This is an example of `in-line code`.
 
 ### Linked Image
 
-[![alt text for linked image](./media/AzRMS_elements.png)](https://azure.microsoft.com) 
+[![alt text for linked image](./media/AzRMS_elements.png)](https://docs.microsoft.com) 
 
 ### Animated gif
 
@@ -216,12 +267,17 @@ This is an example of `in-line code`.
 
 <iframe src="http://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Azure-Active-Directory-Connect-Express-Settings/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
-
 ### Youtube
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/R6_eWWfNB54" frameborder="0" allowfullscreen></iframe>
 
-## docs.ms extensions
+## docs.ms extentions
+
+###  Includes
+
+You can embed the markdown of one file into another using an include.
+
+[!INCLUDE[sample include file](./includes/sampleinclude.md)]
 
 ### Button
 
