@@ -27,40 +27,40 @@ ms.assetid: [GET ONE FROM guidgenerator.com]
 
 # Metadata and Markdown Template
 
-This docs.ms template contains examples of markdown syntax, as well as guidance on setting the metadata. To get the most of it you must view both the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md) and the [rendered view](https://github.com/Microsoft/Docs/blob/master/template.md) (or instance, the raw markdown shows the metadata block, while the rendered view does not).
+This docs.ms template contains examples of Markdown syntax, as well as guidance on setting the metadata. To get the most of it, you must view both the [raw Markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md) and the [rendered view](https://github.com/Microsoft/Docs/blob/master/template.md) (for instance, the raw Markdown shows the metadata block, while the rendered view does not).
 
-When creating a markdown file you should copy this template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content. 
+When creating a Markdown file, you should copy this template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content. 
 
 
 ## Metadata 
 
-The full metadata block is above (in the [raw markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md)), divided into required fields and optional fields. Some key notes:
+The full metadata block is above (in the [raw Markdown](https://raw.githubusercontent.com/Microsoft/Docs/master/template.md)), divided into required fields and optional fields. Some key notes:
 
 - You **must** have a space between the colon (:) and the value for a metadata element.
-- If an optional metadata element does not have a value, comment out the element with a # (do not leave it blank or use "na"); if you are adding a value to an element that was commnted out, be sure to remove the #.
-- Colons in a value (e.g., a title) break the metadata parser. In their place, use the HTML encoding of &#58; (e.g., "title: Azure Rights Management&#58; the basics | Azure RMS").
-- **title**: This title will appear in search engine results. The title should end with a pipe (|) followed by the name of the service (e.g. see above). The title need not (and probably should not) be identical to the title in your H1 heading. It should be roughly 65 characters (including | SERVICE NAME)
-- **author**, **manager**, **reviewer**: The author field should contain the **Github username** of the author, not their alias.  The "manager" and "reviewer" fields, on the other hand, should contain aliases. ms.reviewer specifies the name of the PM associated with the article or service.
-- **ms.assetid**: This is the GUID of the article from CAPS. When creating a new markdown file, get a GUID from [https://www.guidgenerator.com](https://www.guidgenerator.com). 
+- If an optional metadata element does not have a value, comment out the element with a # (do not leave it blank or use "na"); if you are adding a value to an element that was commented out, be sure to remove the #.
+- Colons in a value (for example, a title) break the metadata parser. In their place, use the HTML encoding for a colon of `&#58;` (for example, `"title: Azure Rights Management&#58; the basics | Azure RMS"`).
+- **title**: This title will appear in search engine results. The title should end with a pipe (|) followed by the name of the service (for example, see above). The title doesn't need (and probably shouldn't) be identical to the title in your H1 heading. It should be roughly 65 characters (including | SERVICE NAME)
+- **author**, **manager**, **reviewer**: The author field should contain the **GitHub username** of the author, not their alias.  The "manager" and "reviewer" fields, on the other hand, should contain aliases. ms.reviewer specifies the name of the PM associated with the article or service.
+- **ms.assetid**: This is the GUID of the article from CAPS. When creating a new Markdown file, get a GUID from [https://www.guidgenerator.com](https://www.guidgenerator.com). 
 - **ms.prod**, **ms.service**, **ms.technology**, **ms.devlang**, **ms.topic**, **ms.tgt_pltfrm**: Possible values for these elements can be found [here](https://microsoft.sharepoint.com/teams/STBCSI/Insights/_layouts/15/WopiFrame.aspx?sourcedoc=%7b7A321BF1-0611-4184-84DA-A0E964C435FA%7d&file=WEDCS_MasterList_CSIValues.xlsx&action=default).
 
 ## Basic Markdown, GFM, and special characters
 
-All basic and Github-flavored markdown is supported. For more information on these, see:
+All basic and GitHub-flavored Markdown is supported. For more information on these, see:
 
-- [Baseline markdown syntax](https://daringfireball.net/projects/markdown/syntax)
-- [Github-flavored markdown (GFM) documentation](https://guides.github.com/features/mastering-markdown)
+- [Baseline Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
+- [GitHub-flavored Markdown (GFM) documentation](https://guides.github.com/features/mastering-markdown)
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
-- Put a backslash before the special charatcter to "escape" it (e.g., \\\* for a \*)
-- Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (e.g. \&\#42\; for a &#42;).
+- Put a backslash before the special character to "escape" it (for example, \\\* for a \*)
+- Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (for example, \&\#42\; for a &#42;).
 
 ## Headings
 
-Examples of first- and second-level headings are above. 
+Headings should be done using atx-style, that is, use 1-6 hash characters (#) at the start of the line to indicate a heading, corresponding to HTML headings levels H1 through H6. Examples of first- and second-level headers are used above. 
 
-There **must** be only one first-level heading in your topic, which will be displayed as the on-page title.  
+There **must** be only one first-level heading (H1) in your topic, which will be displayed as the on-page title.  
 
 Second-level headings will generate the on-page TOC that appears in the "In this article" section underneath the on-page title.
 
@@ -81,26 +81,26 @@ Second-level headings will generate the on-page TOC that appears in the "In this
 
 ### Internal Links
 
-To link to a header in the same markdown file, view the source of the published article, find the id of the head (e.g. `id="blockquote"`), and link using # + id (e.g. `#blockquote`).
+To link to a header in the same Markdown file, view the source of the published article, find the id of the head (for example, `id="blockquote"`), and link using # + id (for example, `#blockquote`).
 
 - Example: [Blockquotes](#blockquote)
 
-To link to a markdown file in the same repo, use [relative links](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2), including the ".md" at the end of the filename.
+To link to a Markdown file in the same repo, use [relative links](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2), including the ".md" at the end of the filename.
 
 - Example: [Readme file](readme.md)
 - Example: [Tools and setup for contributors](./ContributorGuide/tools-and-setup.md)
 
-To link to a header in a markdown file in the same repo, use relative linking + hashtag linking.
+To link to a header in a Markdown file in the same repo, use relative linking + hashtag linking.
 
-- Example: [Permissions in Guthub](./ContributorGuide/tools-and-setup.md#permissions-in-github)
+- Example: [Permissions in GitHub](./ContributorGuide/tools-and-setup.md#permissions-in-github)
 
 ### External Links
 
 To link to an external file, use the full URL as the link.
 
-- Example: [Github](http://www.github.com)
+- Example: [GitHub](http://www.github.com)
 
-If a URL appears in a markdown file, it will be transformed into a clickable link.
+If a URL appears in a Markdown file, it will be transformed into a clickable link.
 
 - Example: http://www.github.com
 
@@ -136,7 +136,7 @@ If a URL appears in a markdown file, it will be transformed into a clickable lin
 - list
 
 
-##### Unordered list with an embedded lists
+##### Unordered list with an embedded list
 
 - This 
 - bulleted 
@@ -215,9 +215,9 @@ $Files = Get-Childitem $Directory -recurse -Include *.log `
 -ErrorAction SilentlyContinue
 ```
 
-### In-line code
+### Inline code
 
-Use backticks (&#96;) for `in-line code`.
+Use backticks (&#96;) for `inline code`.
 
 ## Blockquotes
 
@@ -265,17 +265,17 @@ Use backticks (&#96;) for `in-line code`.
 
 <iframe src="http://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Azure-Active-Directory-Connect-Express-Settings/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
-### Youtube
+### YouTube
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/R6_eWWfNB54" frameborder="0" allowfullscreen></iframe>
 
-## docs.ms extentions
+## docs.ms extensions
 
-Doc.ms provides a few extentions to Github Flavored Markdown. 
+Doc.ms provides a few extensions to GitHub Flavored Markdown. 
 
 ###  Includes
 
-You can embed the markdown of one file into another using an include.
+You can embed the Markdown of one file into another using an include.
 
 [!INCLUDE[sample include file](./includes/sampleinclude.md)]
 
