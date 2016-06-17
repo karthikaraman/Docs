@@ -44,16 +44,14 @@ The full metadata block is above (in the [raw markdown](https://raw.githubuserco
 - **ms.assetid**: This is the GUID of the article from CAPS. When creating a new markdown file, get a GUID from [https://www.guidgenerator.com](https://www.guidgenerator.com). 
 - **ms.prod**, **ms.service**, **ms.technology**, **ms.devlang**, **ms.topic**, **ms.tgt_pltfrm**: Possible values for these elements can be found [here](https://microsoft.sharepoint.com/teams/STBCSI/Insights/_layouts/15/WopiFrame.aspx?sourcedoc=%7b7A321BF1-0611-4184-84DA-A0E964C435FA%7d&file=WEDCS_MasterList_CSIValues.xlsx&action=default).
 
-## Basic Markdown and GFM
+## Basic Markdown, GFM, and special characters
 
 All basic and Github-flavored markdown is supported. For more information on these, see:
 
 - [Baseline markdown syntax](https://daringfireball.net/projects/markdown/syntax)
 - [Github-flavored markdown (GFM) documentation](https://guides.github.com/features/mastering-markdown)
 
-## Special Characters
-
-Github Flavored Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
+Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
 - Put a backslash before the special charatcter to "escape" it (e.g., \\\* for a \*)
 - Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (e.g. \&\#42\; for a &#42;).
